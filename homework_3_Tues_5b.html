@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+    .column {
+        float: left;
+        width: 33%;
+        padding: 10px;
+        height: 275px; 
+        border: black thin;
+    }
+
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+</head>
+<body>
+
+<div class="row">
+    <div class="column" style="background-color:#aaa;">
+        <h2>Box 1</h2>
+    
+    </div>
+    <div class="column" style="background-color:#bbb;">
+        <h2>Box 2</h2>
+    
+    </div>
+    <div class="column" style="background-color:#ccc;">
+        <h2>Box 3</h2>
+    
+    </div>
+</div>
+
+<div class="row">
+    <div class="column" style="background-color:#ddd;">
+    <h2>Box 4</h2>
+
+    </div>
+    <div class="column" style="background-color: #eee;">
+    <h2>Box 5</h2>
+
+    </div>
+    <div class="column" style="background-color:#fff;">
+    <h2>Box 6</h2>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="column" style="background-color:rgb(138, 138, 138);">
+        <h2>Box 7</h2>
+        
+    </div>
+    <div class="column" style="background-color:rgb(99, 99, 99);">
+    <h2>Box 8</h2>
+        
+    </div>
+    <div class="column" style="background-color:rgb(72, 72, 72);">
+        <h2>Column 3</h2>
+
+    </div>
+</div>
+
+</body>
