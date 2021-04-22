@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/nav.css">
+<style>
+    body{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: space-between;
+    padding-right: 45px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    /* text-decoration: underline; */
+    color: rgb(70, 70, 70);
+}
+
+ul{
+    display: flex;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li{
+    /* color: white; */
+    margin-right: 15px;
+    list-style: none;
+    padding: 20px;
+
+}
+
+li:hover{
+    background-color: rgb(188, 188, 188);
+    color: rgb(48, 47, 47);
+}
+
+main{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    padding: 20 px;
+}
+
+.sides{
+    width: 20%;
+    background-color: yellow;
+    padding: 20px;
+}
+
+p{
+    background-color: lightgreen;
+    width: 80%;
+    padding: 20px;
+
+}
+footer{
+    height: 5vh;
+    background-color: gray;
+
+}
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Company Name</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- flex container for nav bar -->
+
+    <main>
+        <div class="sides">
+            <h2>left sidebar</h2>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>content</h2>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos sed neque illo voluptas tempora, quasi, ducimus repellendus tenetur repudiandae enim culpa corporis, minima voluptatum cumque ut incidunt ipsum nesciunt delectus?<br>
+            <br>
+            Tempora, expedita doloremque eligendi laboriosam itaque enim quis facere impedit officiis voluptate facilis animi velit, similique explicabo illum, maxime veniam officia accusantium debitis vero totam magni consequatur ipsa! Non, provident. <br>
+            <br>
+            Nisi et architecto voluptatibus dicta nostrum, deserunt quis similique facere repellendus reiciendis, distinctio molestias at nesciunt quaerat dignissimos commodi, porro amet voluptatem! Necessitatibus accusantium quisquam consectetur saepe quibusdam inventore eum? <br>
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos sed neque illo voluptas tempora, quasi, ducimus repellendus tenetur repudiandae enim culpa corporis, minima voluptatum cumque ut incidunt ipsum nesciunt delectus?<br>
+            <br>
+            Tempora, expedita doloremque eligendi laboriosam itaque enim quis facere impedit officiis voluptate facilis animi velit, similique explicabo illum, maxime veniam officia accusantium debitis vero totam magni consequatur ipsa! Non, provident. <br>
+            <br>
+            Nisi et architecto voluptatibus dicta nostrum, deserunt quis similique facere repellendus reiciendis, distinctio molestias at nesciunt quaerat dignissimos commodi, porro amet voluptatem! Necessitatibus accusantium quisquam consectetur saepe quibusdam inventore eum? 
+            </p>
+        </div>
+    
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
